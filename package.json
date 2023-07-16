@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx tsc && npx tsc-alias",
     "start": "node ./dist/server.js",
-    "dev": "npx ts-node-dev -r tsconfig-paths/register src/server.ts"
+    "dev": "npx ts-node-dev -r tsconfig-paths/register src/server.ts",
+    "preinstall": "npx only-allow pnpm"
   },
   "keywords": [],
   "author": "",
