@@ -26,20 +26,8 @@ pnpm start
 - To work with prisma
 
 ```bash
-# prisma db push
-pnpm db:push
-# prisma generate
-pnpm db:generate
-# prisma migrate dev
-pnpm db:migrate
-```
-
-### 🚚 Using Docker
-
-- Starting
-
-```bash
-docker compose up -d
+npx prisma generate
+npx prisma migrate dev
 ```
 
 ## Folder Structure
@@ -59,7 +47,7 @@ docker compose up -d
 │ │ ├── index.ts
 │ │ └── user.route.ts
 │ ├── 📂types/
-│ │ ├── express/
+│ │ ├── 📂express/
 │ │ │ └── index.ts
 │ │ └── index.ts
 │ └── server.ts
