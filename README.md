@@ -1,26 +1,26 @@
 # Node TS Express and Prisma
 
-This Repository is a boilerplate to build a RESTful API with Express.js and Prisma using [TypeScript](https://www.typescriptlang.org/) and [pnpm](pnpm.io) for package management
+This Repository is a boilerplate to build a RESTful API with Express.js and Prisma using [TypeScript](https://www.typescriptlang.org/) and [yarn](https://yarnpkg.com/) for package management
 
 ## Usage
 
 - To install package
 
 ```bash
-pnpm install
+yarn
 ```
 
 - To start development
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 - To start production
 
 ```bash
-pnpm build
-pnpm start
+yarn build
+yarn start
 ```
 
 - To work with prisma
@@ -53,7 +53,7 @@ npx prisma migrate dev
 │ └── server.ts
 ├── .env.example
 ├── package.json
-├── pnpm-lock.yaml
+├── yarn.lock
 ├── README.md
 └── tsconfig.json
 ```
